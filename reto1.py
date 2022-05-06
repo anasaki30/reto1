@@ -9,7 +9,7 @@ def cdt(usuario:str,capital:int,tiempo:int):
         valorInteres = (capital * 0.03*tiempo)/12
         valorTotal = valorInteres + capital
         
-        msg='Para el usuario {} La cantidad de dinero a recibor , segun el monto inicial {} para un tiempo de {} meses es :{}'.format(usuario,capital,tiempo,valorTotal) 
+        msg='Para el usuario {} La cantidad de dinero a recibir , segun el monto inicial {} para un tiempo de {} meses es :{}'.format(usuario,capital,tiempo,valorTotal) 
     else:
         
         valorPerdida = capital * 0.02
